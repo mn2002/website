@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lora&display=swap);
+@import url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/bebas.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+h1 {
+    color:  #202A44;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+li {
+    color: #031019;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.site-wrap {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.accordion-container {
+    width: 65%;
+    min-width: 450px;
+    max-width: 980px;
+    margin: 40px auto;
+}
+
+.duties>ul>li {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 420px) {
+    .accordion-container {
+        width: 95%;
+        min-width: 0px;
+        margin: 40px auto;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .duties>ul>li {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}

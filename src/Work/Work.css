@@ -1,0 +1,57 @@
+.work-logos {
+    object-fit: contain;
+    max-width: 100px;
+    height: 100px;
+}
+
+.work-header {
+    margin-left: 20px;
+}
+
+.work-company {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+.work-title {
+    font-size: 18px;
+}
+
+.work-date {
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+}
+
+.work-date, .work-title {
+    color: lightgrey;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.MuiAccordion-root {
+    border-radius: 8px !important;
+}
+
+
+.MuiAccordionDetails-root {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .work-date {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .work-company {
+        font-size: 20px;
+    }
+    .work-title {
+        font-size: 14px;
+    }
+}

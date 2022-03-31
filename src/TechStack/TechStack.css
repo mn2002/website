@@ -1,0 +1,21 @@
+.tech-stack {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    padding: 2px 5px 2px 5px;
+    margin: 3px 3px 0 3px;
+    border-radius: 5px;
+    color: white !important;
+    background-color: #8d9ea5;
+}
+
+@media only screen and (max-width: 420px) {
+    .tech {
+        font-size: 13px;
+    }
+}

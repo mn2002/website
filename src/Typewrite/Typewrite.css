@@ -1,0 +1,20 @@
+.typewrite, .typewrite-change {
+    height: 160px;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color:  #202A44;
+    white-space: nowrap;
+  }
+
+.typewrite-change {
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 420px) {
+  .typewrite, .typewrite-change {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,70 @@
+#trophy {
+    margin: 11px 0 0 5px;
+    color: gold;
+}
+
+.winner {
+    font-weight: 700;
+}
+
+.project-header {
+    display: flex;
+    padding: 8px 0 8px 0;
+}
+
+.project-title {
+    white-space: nowrap;
+    font-size: 23px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+.project-summary {
+    margin: 9px 0 0 10px;
+    font-size: 15px;
+    color: lightgrey;
+    width: 450px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.project-link-wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+    right: 50px;
+}
+
+.project-link {
+    margin: 8px 5px 0 0;
+    font-size: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1260px) {
+    .project-summary {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .project-title {
+        font-size: 18px;
+    }
+    #trophy {
+        margin: 7px 0 0 5px;
+        color: gold;
+    }
+    .project-link {
+        margin: 15px 5px 0 0;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .social-button--github, .project-link {
+        display: none;
+    }
+}
